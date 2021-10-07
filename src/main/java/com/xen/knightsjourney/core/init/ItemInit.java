@@ -21,7 +21,7 @@ public class ItemInit {
 				() -> new Item(new Item.Properties().tab(KJResources.KJ_RESOURCES)));
 		public static final RegistryObject<Item> REFINED_DIAMOND = ITEMS.register("refined_diamond",
 				() -> new Item(new Item.Properties().tab(KJResources.KJ_RESOURCES)));
-		public static final RegistryObject<Item> REFINED_NETHERITE = ITEMS.register("refined_diamond",
+		public static final RegistryObject<Item> REFINED_NETHERITE = ITEMS.register("refined_netherite",
 				() -> new Item(new Item.Properties().tab(KJResources.KJ_RESOURCES)));
 		
 		//KJ Resources
