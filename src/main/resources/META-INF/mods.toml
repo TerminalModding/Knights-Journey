@@ -1,0 +1,36 @@
+modLoader="javafml" 
+loaderVersion="[36,)" 
+license="MIT"
+[[mods]] 
+modId="knightsjourney" 
+version="${file.jarVersion}" 
+displayName="Knights Journey" 
+logoFile="knightsjourney_logo.png"
+credits="Thank you to the KJ Developement Team for helping out on making this mod"
+authors="Xen|Developer, ActualleGravy|Textures" 
+description='''
+Knights Journey
+a medieval arsenal and environment
+
+Features:
+- Medieval weaponry
+- New decorations
+- New biomes
+- New mobs
+- New structures
+- New mechanics
+- Bosses
+- Siege Machines
+'''
+[[dependencies.knightsjourney]] 
+    modId="forge" 
+    mandatory=true 
+    versionRange="[36,)" 
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.knightsjourney]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
