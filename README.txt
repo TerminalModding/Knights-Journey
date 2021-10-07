@@ -17,6 +17,7 @@ Features:
 - New mechanics
 - Bosses
 - Siege Machines
+- Custom Enchants
 
 Knights Journey Developement Team:
 Xen | Developer
