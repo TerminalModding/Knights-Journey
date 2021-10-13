@@ -1,9 +1,12 @@
 package com.xen.knightsjourney.core.init;
 
 import com.xen.knightsjourney.KnightsJourney;
+import com.xen.knightsjourney.common.material.SwordMaterial;
 import com.xen.knightsjourney.core.tabs.KJResources;
+import com.xen.knightsjourney.core.tabs.KJWeapons;
 
 import net.minecraft.item.Item;
+import net.minecraft.item.SwordItem;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -49,5 +52,13 @@ public class ItemInit {
 				() -> new Item(new Item.Properties().tab(KJResources.KJ_RESOURCES)));
 		public static final RegistryObject<Item> SULFUR = ITEMS.register("sulfur",
 				() -> new Item(new Item.Properties().tab(KJResources.KJ_RESOURCES)));
+		
+		//KJ Cutlass
+		public static final 
+		
+		//KJ Claymore
+		public static final RegistryObject<Item> IRON_CLAYMORE = ITEMS.register("iron_claymore", 
+				() -> new SwordItem(SwordMaterial.IRON_CLAYMORE, 8, -0.9f,
+						new Item.Properties().tab(KJWeapons.KJ_WEAPONS)));
 		
 }
